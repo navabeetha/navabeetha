@@ -5,28 +5,21 @@ box-sizing: border-box;
 background-color: white;
 }
 
-/* width */
+/* scroll bar settings */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 15px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
     background: white;
-    border-radius: 5px;
 }
- 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-    background: black;
-    border-radius: 5px;
+    background: #ccc;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: black; 
+    background: #ccc; 
 }
 
+/* a text-decoration:none; */
 a:link,
 a:visited,
 a:hover,
@@ -42,28 +35,36 @@ a:active {
 
   position: fixed;
   z-index: 2;
+    
+  font-family: "Varela Round", sans-serif;
 }
 
 .hero {
   width: 900px;
   height: 50px;
   margin: 0 auto;
-
+    
   color: black;
-  font-family: "Dosis", sans-serif;
+}
+
+#beetha {
+  height: inherit;
+  float: left;
+    
   font-size: 30px;
   font-weight: 600;
+  line-height: 50px;
   text-align: left;
 }
 
 .contact {
   height: inherit;
   float: right;
-  top: 30px;
   padding-left: 30px;
 
   font-size: 15px;
-  line-height: 50px;
+  font-weight: 600;
+  line-height: 55px;
   text-align: right;
   /* border: 1px solid red; */
 }
@@ -75,31 +76,22 @@ a:active  {
   color: black;
 }
 
-.work-fields {
-  width: 100%;
-  height: 50px;
-  background-color: black;
-
-  position: fixed;
-}
-
 .types {
   width: 900px;
-  margin: auto;
-  background-color: black;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: inherit;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
 
 .poo {
-  height: inherit;
   padding: 14px 38px;
   /* border: 1px solid red; */
-  background-color: black;
 
-  color: white;
-  font-family: "Dosis";
+  color: #B3B3B3;
   font-size: 16px;
   font-weight: 600;
   text-align: left;
@@ -125,67 +117,14 @@ a:active  {
 }
 
 .poo:hover {
-  background-color: white;
-  text-decoration: none;
-  color: black;
-}
-
-.poo:active {
-  text-decoration: none;
-  color: gray;
-}
-
-.navigation {
-  display: block;
-  width: 200px;
-  height: auto;
-
-  position: fixed;
-  top: 165px;
-  left: 15px;
-  background-color: white;
-}
-
-.level-1 {
-  list-style-type: none;
-}
-
-.pee {
-  padding: 10px 10px;
-
-  color: black;
-  font-family: "Trebuchet MS";
-  font-size: 16px;
-  font-style: italic;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.pee a {
-  display: block;
-  text-decoration: none;
-  color: black;
-}
-
-.pee:link {
-  text-decoration: none;
-  color: black;
-}
-
-.pee:visited {
-  text-decoration: none;
-  color: black;
-}
-
-.pee:hover {
   background-color: black;
   text-decoration: none;
   color: white;
 }
 
-.pee:active {
+.poo:active {
   text-decoration: none;
-  color: black;
+  color: gray;
 }
 
 .content-box {
@@ -199,7 +138,6 @@ a:active  {
   flex-wrap: wrap;
   justify-content: space-between;
 
-  margin-top: 15px;
   margin: auto;
   width: 900px;
   margin-bottom: 50px;
@@ -211,35 +149,33 @@ a:active  {
 .card {
   width: 290px;
   height: 450px;
-  margin-top: 15px;
+  margin-bottom: 15px;
   padding: 15px;
   overflow: auto;
-
 }
 
 .card:hover {
-  box-shadow: 5px 5px 15px #888;
+  box-shadow: 0px 5px 15px #7f7f7f;
 }
 
 .card img {
   width: 100%;
   height: auto;
-
   margin-bottom: 15px;
 }
 
 .card h5 {
   color: black;
-  font-family: "Trebuchet MS";
+  font-family: "Varela Round";
   font-size: 16px;
-  font-style: italic;
   text-align: left;
   vertical-align: middle;
+  margin-bottom: 5px;
 }
 
 .card h6 {
-  color: #7f7f7f;
-  font-family: "Trebuchet MS";
+  color: #B3B3B3;
+  font-family: "Varela Round";
   font-size: 10px;
   font-style: italic;
   text-align: left;
@@ -249,8 +185,8 @@ a:active  {
 
 .card p {
   color: #7f7f7f;
-  font-family: "Trebuchet MS";
-  font-size: 14px;
+  font-family: "Merriweather";
+  font-size: 12px;
   line-height: 18px;
   font-style: normal;
   text-align: left;
