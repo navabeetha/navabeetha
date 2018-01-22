@@ -148,7 +148,7 @@ a:active  {
 
 .card {
   width: 290px;
-  height: 420px;
+  height: 400px;
   margin-bottom: 15px;
   padding: 15px;
   overflow: auto;
@@ -218,7 +218,7 @@ a:active  {
 .box-1 p,
 .box-1 ol {
   font-family: "Merriweather";
-  font-size: 14px;
+  font-size: 12px;
   line-height: 18px;
 }
 
