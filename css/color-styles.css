@@ -8,6 +8,9 @@
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
+.project-title.white {
+    border-bottom: 1px solid black;
+}
 
 /* ----- BLACK ----- */
 .black {
@@ -17,6 +20,9 @@
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
+.project-title.black {
+    border-bottom: 1px solid white;
+}
 
 /* ----- BROWN ----- */
 .financial {
@@ -24,5 +30,8 @@
 }
 .navbox.financial {
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.project-title.financial {
     border-bottom: 1px solid black;
 }
