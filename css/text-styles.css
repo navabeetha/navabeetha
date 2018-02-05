@@ -43,6 +43,7 @@ p, ol, ul {
 h2 {
   font-family: "Varela Round";
   font-size: 24px;
+  padding-bottom: 15px;
 }
 
 h3 {
@@ -50,11 +51,13 @@ h3 {
   font-size: 20px;
   font-style: italic;
   color: #B3B3B3;
+  padding-bottom: 15px;
 }
 
 h4 {
   font-family: "Varela Round";
   font-size: 18px;
+  padding-bottom: 15px;
 }
 
 h5 {
