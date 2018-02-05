@@ -45,25 +45,6 @@ box-sizing: border-box;
   padding-bottom: 50px;
 }
 
-/* ----- PROJECT PAGE STYLING ----- */
-.project-box {
-  display: block;
-    
-  margin: auto;
-  width: 900px;
-  padding-top: 15px;
-  padding-bottom: 50px;
-}
-
-.image-box {
-  display: block;
-    
-  margin: auto;
-  width: 900px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 /* ----- CARD STYLING ----- */
 
 .card {
@@ -89,4 +70,25 @@ box-sizing: border-box;
 .card.black:hover {
   background-color: white;
   color: black;
+}
+
+
+
+/* ----- PROJECT PAGE STYLING ----- */
+.project-box {
+  display: block;
+    
+  margin: auto;
+  width: 900px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+.image-box {
+  display: block;
+    
+  margin: auto;
+  width: 900px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
