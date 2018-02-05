@@ -1,0 +1,149 @@
+/* a text-decoration:none; */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/* ---------- FONT SETTINGS ---------- */
+
+.masthead {
+  font-family: "Varela Round","Trebuchet MS",sans-serif;
+}
+
+.beetha {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: left;
+}
+
+.contact {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 62px;
+  text-align: right;
+}
+
+.navelement {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* ----- FONT STYLING ----- */
+
+h1, h2, h3, h4, h5, h6,
+p, ol, ul {
+  background-color: rgba(0,0,0,0);
+}
+
+h2 {
+  font-family: "Varela Round";
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Varela Round";
+  font-size: 20px;
+  font-style: italic;
+  color: #B3B3B3;
+}
+
+h4 {
+  font-family: "Varela Round";
+  font-size: 18px;
+}
+
+h5 {
+  font-family: "Varela Round","Trebuchet MS", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+h6 {
+  font-family: "Varela Round","Trebuchet MS", sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  opacity: 0.5;
+  text-align: left;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+p,ol {
+  font-family: "Merriweather", serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-style: normal;
+  opacity: 0.5;
+  text-align: left;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+/* ---------- COLOUR SETTINGS ---------- */
+
+/* ----- WHITE ----- */
+.white {
+  color: black;
+}
+
+.banner.white > a:link,
+.banner.white > a:visited,
+.banner.white > a:hover,
+.banner.white > a:active  {
+  color: black;
+}
+
+.navelement.white:hover {
+  background-color: black;
+  color: white;
+}
+.navelement.white:active {
+  color: white;
+}
+
+/* ----- BLACK ----- */
+.black {
+  color: white;
+}
+
+.banner.black > a:link,
+.banner.black > a:visited,
+.banner.black > a:hover,
+.banner.black > a:active  {
+  color: white;
+}
+
+.navelement.black:hover {
+  background-color: white;
+  color: black;
+}
+.navelement.black:active {
+  color: black;
+}
+
+/* ----- FINANCIAL BROWN ----- */
+.financial {
+  color: black;
+}
+
+.banner.financial > a:link,
+.banner.financial > a:visited,
+.banner.financial; > a:hover,
+.banner.financial > a:active  {
+  color: black;
+}
+
+.navelement.financial:hover {
+  background-color: black;
+  color: white;
+}
+.navelement.financial:active {
+  color: white;
+}

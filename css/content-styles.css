@@ -1,0 +1,92 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* ----- ABOUT/CONTACT PAGE STYLING ----- */
+
+.aboutpic {
+    width: 300px;
+    height: 300px;
+    
+    position: relative;
+    float: right;
+    top: 100px;
+}
+
+.aboutpic img {
+    width: 100%;
+    height: auto;
+}
+
+.abouttext {
+    position: relative;
+    float: left;
+    width: 500px;
+}
+
+/* ----- CONTENT BOX STYLING ----- */
+
+.content-box {
+  display: block;
+  position: relative;
+  padding-top: 99px;
+}
+
+/* ----- CARD PAGE STYLING ----- */
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: auto;
+  width: 900px;
+  padding-bottom: 50px;
+}
+
+/* ----- PROJECT PAGE STYLING ----- */
+.project-box {
+  display: block;
+    
+  margin: auto;
+  width: 900px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+.image-box {
+  display: block;
+    
+  margin: auto;
+  width: 900px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* ----- CARD STYLING ----- */
+
+.card {
+  width: 290px;
+  height: 400px;
+  padding-bottom: 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* ----- CARD HOVER STATES ----- */
+
+.card.white:hover {
+  background-color: black;
+  color: white;
+}
+.card.black:hover {
+  background-color: white;
+  color: black;
+}

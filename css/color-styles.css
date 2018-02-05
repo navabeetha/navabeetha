@@ -1,0 +1,36 @@
+/* ----- COLOR ----- */
+
+/* ----- WHITE ----- */
+.white {
+    background-color: white;
+}
+.navbox.white {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.content-box.white {
+    background-color: white;
+}
+
+/* ----- BLACK ----- */
+.black {
+    background-color: black;
+}
+.navbox.black {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.content-box.black {
+    background-color: black;
+}
+
+/* ----- BROWN ----- */
+.financial {
+    background-color: #E7E3CD;
+}
+.navbox.financial {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.content-box.financial {
+    background-color: black;
