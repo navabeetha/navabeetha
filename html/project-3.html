@@ -3,13 +3,26 @@
 
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navaneeth Krishnan</title>
       
+    <!-- JavaScript Links Here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      
+    <style>
+      
+        :root {
+            --main-bcg-color: white;
+            --main-txt-color: black;
+        }
+    
+    </style>
+      
     <!-- CSS Styles Here -->
-    <link rel="stylesheet" href="../css/header-styles.css" />
-    <link rel="stylesheet" href="../css/content-styles.css" />
-    <link rel="stylesheet" href="../css/text-styles.css" />
-    <link rel="stylesheet" href="../css/color-styles.css" />
+    <link rel="stylesheet" href="/css/header-styles.css" />
+    <link rel="stylesheet" href="/css/index-styles.css" />
+    <link rel="stylesheet" href="/css/text-styles.css" />
+    <link rel="stylesheet" href="/css/color-styles.css" />
       
     <!-- Fonts Here -->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -17,37 +30,21 @@
       
     <!-- Misc Links Here -->
     <link rel="shortcut icon" type="image/png" href="/misc-images/favicon.png"/>
+      
   </head>
     
   <body>
-    <header class="masthead white">
-      <div class="banner white">
-        <a class="beetha white" href="https://navabeetha.github.io/navabeetha/">navabeetha</a>
-        <a class="contact white" href="html/contact.html">contact</a>
-        <a class="contact white" href="html/about.html">about</a>
-        <a class="contact white" href="https://navabeetha.github.io/navabeetha/">home</a>  
-      </div>
-      <div class="navigation white">
-        <ul class="navbox white">
-          <a href="?"><li class="navelement white">
-            data visualization</li></a>
-          <a href="?"><li class="navelement white">
-            graphic design</li></a>
-          <a href="?"><li class="navelement white">
-            illustrations</li></a>
-          <a href="?"><li class="navelement white">
-            photography</li></a>
-          <a href="?"><li class="navelement white">
-            writing</li></a>
-        </ul>
-      </div>
-    </header>
+      
+    <div id="header"></div>  
+    <script> 
+        $("#header").load("/headerfooter/header.html"); 
+    </script>
 
-    <content class="content-box white">
+    <content class="content-box theme">
         <div class="project-box">
             <h2>Isometrics</h2>
             <h3>A search for spatial clarity and storytelling</h3>
-            <div class="image-box wide">
+            <div class="image-box theme">
                 <h4>SPA Canteen 2010</h4>
                 <p>A tribute to the old SPA canteen made while it was still similar to what is shown below. There was a sense of play, movement, heirarchy and creative messiness that embodied it. It has been since demolished and replaced with a sterile bench and table configuration - with admittedly more natural light.</p>
                 <img src="../projects/project-3/images/1.jpg" />

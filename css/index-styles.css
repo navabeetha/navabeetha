@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----- RESPONSIVITY ----- */
+
+@media only screen and (max-width:460px) {
+    .content-box {
+        padding-top: 99px;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .content-box {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width:781px) {
+    .content-box {
+        padding-top: 99px;
+    }
+}
+
+/* ----- ABOUT/CONTACT PAGE STYLING ----- */
+
+.aboutpic {
+    width: 300px;
+    height: 300px;
+    
+    position: relative;
+    float: right;
+    top: 100px;
+}
+
+.aboutpic img {
+    width: 100%;
+    height: auto;
+}
+
+.abouttext {
+    position: relative;
+    float: left;
+    width: 500px;
+}
+
+/* ----- CONTENT BOX STYLING ----- */
+
+.content-box {
+    display: inline-block;
+    z-index: 1;
+
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* ----- CARD PAGE STYLING ----- */
+.card-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    /* grid-gap: 15px; */
+    grid-auto-rows: minmax(365px, auto);
+    align-items: stretch;
+    
+    padding-bottom: 50px;
+}
+
+/* ----- CARD STYLING ----- */
+
+.card {
+    /* min-width: 290px;
+    max-width: 320px; */
+    
+    overflow: hidden;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ----- CARD HOVER STATES ----- */
+
+.card.theme:hover {
+    background-color: var(--main-txt-color);
+    color: var(--main-bcg-color)
+}
+
+/* ----- PROJECT PAGE STYLING ----- */
+.project-box {
+    margin: 0 auto;
+    width: 900px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+/* ----- GALLERY PAGE STYLING ----- */
+.gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-box img {
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    
+    padding-bottom: 15px;
+}
+.image-box h4,
+.image-box h5 {
+    text-align: center;
+}
+
+.image-box.wide img {
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+
+    padding-bottom: 15px;
+}
+
+.image-box.wide h4 {
+    text-align: left;
+}

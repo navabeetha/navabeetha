@@ -8,28 +8,28 @@ a:active {
 
 /* ---------- FONT SETTINGS ---------- */
 
-.masthead {
+.masthead.theme {
   font-family: "Varela Round","Trebuchet MS",sans-serif;
 }
 
-.beetha {
+.navabeetha {
   font-size: 30px;
   font-weight: 600;
   line-height: 50px;
   text-align: left;
 }
 
-.contact {
+.aboutcontact {
   font-size: 15px;
   font-weight: 600;
   line-height: 62px;
   text-align: right;
 }
 
-.navelement {
+.masthead-bot-elem {
   font-size: 16px;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   vertical-align: middle;
 }
 
@@ -94,64 +94,3 @@ p,ol {
     font-size: 12px;
 }
 
-/* ---------- COLOUR SETTINGS ---------- */
-
-/* ----- WHITE ----- */
-.white {
-  color: black;
-}
-
-.banner.white > a:link,
-.banner.white > a:visited,
-.banner.white > a:hover,
-.banner.white > a:active  {
-  color: black;
-}
-
-.navelement.white:hover {
-  background-color: black;
-  color: white;
-}
-.navelement.white:active {
-  color: white;
-}
-
-/* ----- BLACK ----- */
-.black {
-  color: white;
-}
-
-.banner.black > a:link,
-.banner.black > a:visited,
-.banner.black > a:hover,
-.banner.black > a:active  {
-  color: white;
-}
-
-.navelement.black:hover {
-  background-color: white;
-  color: black;
-}
-.navelement.black:active {
-  color: black;
-}
-
-/* ----- FINANCIAL BROWN ----- */
-.financial {
-  color: black;
-}
-
-.banner.financial > a:link,
-.banner.financial > a:visited,
-.banner.financial; > a:hover,
-.banner.financial > a:active  {
-  color: black;
-}
-
-.navelement.financial:hover {
-  background-color: black;
-  color: white;
-}
-.navelement.financial:active {
-  color: white;
-}

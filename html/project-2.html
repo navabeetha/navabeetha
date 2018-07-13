@@ -3,13 +3,26 @@
 
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navaneeth Krishnan</title>
       
+    <!-- JavaScript Links Here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      
+    <style>
+      
+        :root {
+            --main-bcg-color: black;
+            --main-txt-color: white;
+        }
+    
+    </style>
+      
     <!-- CSS Styles Here -->
-    <link rel="stylesheet" href="../css/header-styles.css" />
-    <link rel="stylesheet" href="../css/content-styles.css" />
-    <link rel="stylesheet" href="../css/text-styles.css" />
-    <link rel="stylesheet" href="../css/color-styles.css" />
+    <link rel="stylesheet" href="/css/header-styles.css" />
+    <link rel="stylesheet" href="/css/index-styles.css" />
+    <link rel="stylesheet" href="/css/text-styles.css" />
+    <link rel="stylesheet" href="/css/color-styles.css" />
       
     <!-- Fonts Here -->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -17,38 +30,22 @@
       
     <!-- Misc Links Here -->
     <link rel="shortcut icon" type="image/png" href="/misc-images/favicon.png"/>
+      
   </head>
     
   <body>
-    <header class="masthead black">
-      <div class="banner black">
-        <a class="beetha black" href="https://navabeetha.github.io/navabeetha/">navabeetha</a>
-        <a class="contact black" href="html/contact.html">contact</a>
-        <a class="contact black" href="html/about.html">about</a>
-        <a class="contact black" href="https://navabeetha.github.io/navabeetha/">home</a>  
-      </div>
-      <div class="navigation black">
-        <ul class="navbox black">
-          <a href="?"><li class="navelement black">
-            data visualization</li></a>
-          <a href="?"><li class="navelement black">
-            graphic design</li></a>
-          <a href="?"><li class="navelement black">
-            illustrations</li></a>
-          <a href="?"><li class="navelement black">
-            photography</li></a>
-          <a href="?"><li class="navelement black">
-            writing</li></a>
-        </ul>
-      </div>
-    </header>
+      
+    <div id="header"></div>  
+    <script> 
+        $("#header").load("/headerfooter/header.html");
+    </script>
 
-    <content class="content-box black">
+    <content class="content-box theme">
             <div class="project-box">
             <h2>The Edge of Surreal</h2>
             <h3>What happens just before we go surreal?</h3>
             </div>
-            <div class="gallery-box black">
+            <div class="gallery-box theme">
             <div class="image-box">
                 <img src="../projects/project-2/images/2.jpg" />
                 <h4>Stoned Ape</h4>

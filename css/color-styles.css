@@ -1,37 +1,44 @@
-/* ----- COLOR ----- */
+/* ----- BASE COLOR SETTINGS----- */
 
-/* ----- WHITE ----- */
-.white {
-    background-color: white;
+.theme {
+    background-color: var(--main-bcg-color);
 }
-.navbox.white {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+.masthead-top {
+    border-bottom: 1px solid var(--main-txt-color);
 }
-.project-title.white {
-    border-bottom: 1px solid black;
+.masthead-bot {
+    border-bottom: 1px solid var(--main-txt-color);
 }
-
-/* ----- BLACK ----- */
-.black {
-    background-color: black;
-}
-.navbox.black {
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}
-.project-title.black {
-    border-bottom: 1px solid white;
+.project-title {
+    border-bottom: 1px solid var(--main-txt-color);
 }
 
-/* ----- BROWN ----- */
-.financial {
-    background-color: #E7E3CD;
+/* ---------- TEXT COLOUR SETTINGS ---------- */
+
+.theme {
+  color: var(--main-txt-color);
 }
-.navbox.financial {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+
+.masthead-top.theme > a:link,
+.masthead-top.theme > a:visited,
+.masthead-top.theme > a:hover,
+.masthead-top.theme > a:active  {
+  color: var(--main-txt-color);
 }
-.project-title.financial {
-    border-bottom: 1px solid black;
+
+.masthead-bot-elem.theme > a:link,
+.masthead-bot-elem.theme > a:visited,
+.masthead-bot-elem.theme > a:hover,
+.masthead-bot-elem.theme > a:active  {
+  color: var(--main-txt-color);
+}
+
+.masthead-bot-elem.theme:hover {
+  background-color: var(--main-txt-color);
+  color: var(--main-bcg-color);
+}
+
+.masthead-bot-elem.theme:active {
+  background-color: var(--main-txt-color);
+  color: var(--main-bcg-color);
 }

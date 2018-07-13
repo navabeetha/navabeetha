@@ -3,11 +3,24 @@
 
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navaneeth Krishnan</title>
+      
+    <!-- JavaScript Links Here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      
+    <style>
+      
+        :root {
+            --main-bcg-color: white;
+            --main-txt-color: black;
+        }
+    
+    </style>
       
     <!-- CSS Styles Here -->
     <link rel="stylesheet" href="/css/header-styles.css" />
-    <link rel="stylesheet" href="/css/content-styles.css" />
+    <link rel="stylesheet" href="/css/index-styles.css" />
     <link rel="stylesheet" href="/css/text-styles.css" />
     <link rel="stylesheet" href="/css/color-styles.css" />
       
@@ -16,32 +29,17 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i" rel="stylesheet">
       
     <!-- Misc Links Here -->
-    <link rel="shortcut icon" type="image/png" href="misc-images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="/misc-images/favicon.png"/>
+      
   </head>
 
-  <body>
-    <header class="masthead">
-      <div class="banner white">
-        <a class="beetha" href="https://navabeetha.github.io/navabeetha/">navabeetha</a>
-        <a class="contact" href="html/contact.html">contact</a>
-        <a class="contact" href="html/about.html">about</a>
-        <a class="contact" href="https://navabeetha.github.io/navabeetha/">home</a>  
-      </div>
-      <div class="navigation">
-        <ul class="navbox">
-          <a href="?"><li class="navelement white">
-            data visualization</li></a>
-          <a href="?"><li class="navelement white">
-            graphic design</li></a>
-          <a href="?"><li class="navelement white">
-            illustrations</li></a>
-          <a href="?"><li class="navelement white">
-            photography</li></a>
-          <a href="?"><li class="navelement white">
-            writing</li></a>
-        </ul>
-      </div>
-    </header>
+  <body class="white">
+      
+    <div id="header"></div><br />
+    
+    <script> 
+        $("#header").load("/headerfooter/header.html"); 
+    </script> 
 
     <content class="content-box">
       <div class="box-1">
