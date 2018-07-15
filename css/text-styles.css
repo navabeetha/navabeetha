@@ -1,96 +1,104 @@
 /* a text-decoration:none; */
+
 a:link,
 a:visited,
 a:hover,
 a:active {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* ---------- FONT SETTINGS ---------- */
 
 .masthead.theme {
-  font-family: "Varela Round","Trebuchet MS",sans-serif;
+    font-family: "Varela Round", "Trebuchet MS", sans-serif;
 }
 
 .navabeetha {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 50px;
-  text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
 }
 
 .aboutcontact {
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 62px;
-  text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 62px;
+    text-align: right;
 }
 
 .masthead-bot-elem {
-  font-size: 16px;
-  font-weight: 600;
-  text-align: center;
-  vertical-align: middle;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
 }
 
 /* ----- FONT STYLING ----- */
 
-h1, h2, h3, h4, h5, h6,
-p, ol, ul {
-  background-color: rgba(0,0,0,0);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 h2 {
-  font-family: "Varela Round";
-  font-size: 24px;
-  margin-bottom: 5px;
+    font-family: "Varela Round";
+    font-size: 24px;
+    margin-bottom: 5px;
 }
 
 h3 {
-  font-family: "Varela Round";
-  font-size: 20px;
-  font-style: italic;
-  opacity: 0.5;
-  margin-bottom: 15px;
+    font-family: "Varela Round";
+    font-size: 20px;
+    font-style: italic;
+    opacity: 0.5;
+    margin-bottom: 15px;
 }
 
 h4 {
-  font-family: "Varela Round";
-  font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 15px;
+    font-family: "Varela Round";
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
 }
 
 h5 {
-  font-family: "Varela Round","Trebuchet MS", sans-serif;
-  font-size: 16px;
-  text-align: left;
-  vertical-align: middle;
-  margin-bottom: 5px;
+    font-family: "Varela Round", "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: middle;
+    margin-bottom: 5px;
 }
 
 h6 {
-  font-family: "Varela Round","Trebuchet MS", sans-serif;
-  font-size: 10px;
-  font-style: italic;
-  opacity: 0.5;
-  text-align: left;
-  vertical-align: middle;
-  margin-bottom: 15px;
+    font-family: "Varela Round", "Trebuchet MS", sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    opacity: 0.5;
+    text-align: left;
+    vertical-align: middle;
+    margin-bottom: 15px;
 }
 
-p,ol {
-  font-family: "Merriweather", serif;
-  font-size: 14px;
-  line-height: 18px;
-  font-style: normal;
-  opacity: 0.75;
-  text-align: left;
-  vertical-align: middle;
-  margin-bottom: 15px;
+p,
+ol {
+    font-family: "Merriweather", serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    opacity: 0.75;
+    text-align: left;
+    vertical-align: middle;
+    margin-bottom: 15px;
 }
 
 .card > p {
     font-size: 12px;
 }
-

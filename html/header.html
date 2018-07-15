@@ -1,55 +1,122 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navaneeth Krishnan</title>
-      
+
     <!-- CSS Styles Here -->
     <link rel="stylesheet" href="/css/header-styles.css" />
     <link rel="stylesheet" href="/css/text-styles.css" />
     <link rel="stylesheet" href="/css/color-styles.css" />
-      
+
     <!-- Fonts Here -->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i" rel="stylesheet">
-      
-    <!-- Misc Links Here -->
-    <link rel="shortcut icon" type="image/png" href="/misc-images/favicon.png"/>
-      
-    <!-- JavaScript Links Here -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      
-  </head>
 
-  <body>
+    <!-- Misc Links Here -->
+    <link rel="shortcut icon" type="image/png" href="/misc-images/favicon.png" />
+
+    <!-- JavaScript Links Here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+
+    </script>
+
+    <script>
+        function burgerTransform(x) {
+            x.classList.toggle("change");
+            $(".dropdown").slideToggle(600);
+        }
+
+        window.onscroll = function() {
+            myFunction()
+        }
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+
+    </script>
+
+</head>
+
+<body>
     <header class="masthead theme">
-      <div class="masthead-top theme">
-        <a class="navabeetha" href="https://navabeetha.github.io/navabeetha/">navabeetha</a>
-        <a class="hamburger">
-            <object type="image/svg+xml" data="/misc-images/hamburger.svg"></object>
-        </a>
-        
-        <a class="aboutcontact" href="html/contact.html">contact</a>
-        <a class="aboutcontact" href="html/about.html">about</a>
-        <a class="aboutcontact" href="https://navabeetha.github.io/navabeetha/">home</a>
-        
-      </div>
-    
-      <div class="masthead-bot theme">
-        <a href="?"><div class="masthead-bot-elem theme">
-            data visualization</div></a>
-        <a href="?"><div class="masthead-bot-elem theme">
-            graphic design</div></a>
-        <a href="?"><div class="masthead-bot-elem theme">
-            illustrations</div></a>
-        <a href="?"><div class="masthead-bot-elem theme">
-            photography</div></a>
-        <a href="?"><div class="masthead-bot-elem theme">
-            writing</div></a>
-      </div>
-    
+
+        <div>
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+
+        <div class="masthead-top theme">
+
+            <a class="navabeetha" href="https://navabeetha.github.io/navabeetha/">navabeetha</a>
+
+            <div class="css-hamburger" onclick="burgerTransform(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+            <a class="aboutcontact" href="/html/about.html">about | contact</a>
+        </div>
+
+
+        <div class="masthead-bot theme">
+
+            <a href="?">
+                <div class="masthead-bot-elem theme">
+                    data visualization</div>
+            </a>
+            <a href="?">
+                <div class="masthead-bot-elem theme">
+                    graphic design</div>
+            </a>
+            <a href="?">
+                <div class="masthead-bot-elem theme">
+                    illustrations</div>
+            </a>
+            <a href="?">
+                <div class="masthead-bot-elem theme">
+                    photography</div>
+            </a>
+            <a href="?">
+                <div class="masthead-bot-elem theme">
+                    writing</div>
+            </a>
+        </div>
+
+        <div class="dropdown">
+            <a href="/html/about.html">
+                <div class="masthead-bot-elem theme">about | contact</div>
+            </a>
+            <a href="?">
+                <div class="masthead-bot-elem theme">
+                    data visualization</div>
+            </a>
+            <a href="?">
+                <div class="masthead-bot-elem theme">
+                    graphic design</div>
+            </a>
+            <a href="?">
+                <div class="masthead-bot-elem theme">
+                    illustrations</div>
+            </a>
+            <a href="?">
+                <div class="masthead-bot-elem theme">
+                    photography</div>
+            </a>
+            <a href="?">
+                <div class="masthead-bot-elem theme">
+                    writing</div>
+            </a>
+        </div>
+
     </header>
 
-  </body>
+</body>

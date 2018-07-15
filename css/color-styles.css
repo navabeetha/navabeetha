@@ -3,42 +3,63 @@
 .theme {
     background-color: var(--main-bcg-color);
 }
+
 .masthead-top {
     border-bottom: 1px solid var(--main-txt-color);
 }
+
 .masthead-bot {
     border-bottom: 1px solid var(--main-txt-color);
 }
+
 .project-title {
     border-bottom: 1px solid var(--main-txt-color);
+}
+
+.dropdown > a:first-child > .masthead-bot-elem.theme {
+    border-bottom: 1px solid var(--main-txt-color);
+}
+
+.dropdown {
+    border-bottom: 1px solid var(--main-txt-color);
+}
+
+.progress-bar {
+    background-color: var(--main-txt-color);
 }
 
 /* ---------- TEXT COLOUR SETTINGS ---------- */
 
 .theme {
-  color: var(--main-txt-color);
+    color: var(--main-txt-color);
 }
 
 .masthead-top.theme > a:link,
 .masthead-top.theme > a:visited,
 .masthead-top.theme > a:hover,
-.masthead-top.theme > a:active  {
-  color: var(--main-txt-color);
+.masthead-top.theme > a:active {
+    color: var(--main-txt-color);
 }
 
 .masthead-bot-elem.theme > a:link,
 .masthead-bot-elem.theme > a:visited,
 .masthead-bot-elem.theme > a:hover,
-.masthead-bot-elem.theme > a:active  {
-  color: var(--main-txt-color);
+.masthead-bot-elem.theme > a:active {
+    color: var(--main-txt-color);
 }
 
 .masthead-bot-elem.theme:hover {
-  background-color: var(--main-txt-color);
-  color: var(--main-bcg-color);
+    background-color: var(--main-txt-color);
+    color: var(--main-bcg-color);
 }
 
 .masthead-bot-elem.theme:active {
-  background-color: var(--main-txt-color);
-  color: var(--main-bcg-color);
+    background-color: var(--main-txt-color);
+    color: var(--main-bcg-color);
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    background-color: var(--main-txt-color);
 }
