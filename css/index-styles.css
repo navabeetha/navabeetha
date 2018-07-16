@@ -64,8 +64,7 @@
 .card-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    /* grid-gap: 15px; */
-    grid-auto-rows: minmax(365px, auto);
+    grid-template-rows: repeat(auto-fit, minmax(365px, 1fr));
     align-items: stretch;
 
     padding-bottom: 50px;
@@ -74,8 +73,6 @@
 /* ----- CARD STYLING ----- */
 
 .card {
-    /* min-width: 290px;
-    max-width: 320px; */
     overflow: hidden;
     padding: 15px;
 }
@@ -85,6 +82,8 @@
     height: 200px;
     object-fit: cover;
 }
+
+
 
 /* ----- CARD HOVER STATES ----- */
 

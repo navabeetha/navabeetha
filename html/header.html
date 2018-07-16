@@ -26,32 +26,52 @@
     </script>
 
     <script>
+        $(document).ready(function() {
+            $('#masthead').fadeOut(1);
+            $('#masthead').fadeIn(600);
+        });
+
+
         function burgerTransform(x) {
             x.classList.toggle("change");
-            $(".dropdown").slideToggle(600);
-        }
+            $("#dropdown").slideToggle(600);
+        };
 
         window.onscroll = function() {
-            myFunction()
-        }
+            progress();
+            scrollup();
+        };
 
-        function myFunction() {
+        function progress() {
             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             var scrolled = (winScroll / height) * 100;
-            document.getElementById("myBar").style.width = scrolled + "%";
-        }
+            document.getElementById("barFill").style.width = scrolled + "%";
+        };
+
+        var prevScrollpos = window.pageYOffset;
+
+        function scrollup() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("masthead").style.top = "0";
+            } else {
+                document.getElementById("masthead").style.top = "-99px";
+            };
+            prevScrollpos = currentScrollPos;
+        };
 
     </script>
 
 </head>
 
 <body>
-    <header class="masthead theme">
 
-        <div>
-            <div class="progress-bar" id="myBar"></div>
-        </div>
+    <div id="barFill" class="progress-bar">
+        <div></div>
+    </div>
+
+    <div id="masthead" class="theme">
 
         <div class="masthead-top theme">
 
@@ -91,7 +111,7 @@
             </a>
         </div>
 
-        <div class="dropdown">
+        <div id="dropdown">
             <a href="/html/about.html">
                 <div class="masthead-bot-elem theme">about | contact</div>
             </a>
@@ -117,6 +137,6 @@
             </a>
         </div>
 
-    </header>
+    </div>
 
 </body>

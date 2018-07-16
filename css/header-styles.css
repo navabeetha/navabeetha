@@ -35,9 +35,6 @@
 
 ::-webkit-scrollbar {
     display: none;
-    z-index: 3;
-    width: 15px;
-    background-color: transparent;
 }
 
 ::-webkit-scrollbar-track {
@@ -55,19 +52,24 @@
 /* ----- HEADER SETTINGS ----- */
 
 .progress-bar {
-    width: 0%;
-    height: 1px;
-    background-color: lightcyan;
+    display: block;
+    position: fixed;
+    z-index: 5;
 }
 
-.masthead {
+#barFill {
+    width: 0%;
+    height: 3px;
+}
+
+#masthead {
     display: block;
     position: fixed;
     top: 0;
     padding-left: 30px;
     padding-right: 30px;
     width: 100%;
-    transition: top 0.3s;
+    transition: top 1s;
 }
 
 .masthead-top {
@@ -113,7 +115,7 @@
     cursor: pointer;
 }
 
-.dropdown {
+#dropdown {
     display: none;
     width: 100%;
     position: relative;

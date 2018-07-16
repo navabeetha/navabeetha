@@ -9,7 +9,7 @@ a:active {
 
 /* ---------- FONT SETTINGS ---------- */
 
-.masthead.theme {
+#masthead.theme {
     font-family: "Varela Round", "Trebuchet MS", sans-serif;
 }
 

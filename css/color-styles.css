@@ -16,15 +16,15 @@
     border-bottom: 1px solid var(--main-txt-color);
 }
 
-.dropdown > a:first-child > .masthead-bot-elem.theme {
+#dropdown > a:first-child > .masthead-bot-elem.theme {
     border-bottom: 1px solid var(--main-txt-color);
 }
 
-.dropdown {
+#dropdown {
     border-bottom: 1px solid var(--main-txt-color);
 }
 
-.progress-bar {
+#barFill {
     background-color: var(--main-txt-color);
 }
 
